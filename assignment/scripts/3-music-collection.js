@@ -37,7 +37,46 @@ collection.push(obj.title,obj.artist,obj.yearPublished);
   console.log(myList5);
   // console logs all albums
 
-console.log(collection);
+  function showCollection(title, artist, yearPublished) {
+    title = obj.title;
+    artist = obj.artist;
+    yearPublished = obj.yearPublished;
+  find = (collection(),collection(),collection())
+    for (let i=0; i<collection.length; i++){
+      if (find === collection(), collection(), collection())
+      console.log(title + 'by ' + artist + 'published in ' + yearPublished);
+      }
+  }
+  console.log(showCollection(obj.title, obj.artist, obj.yearPublished))
+
+
+  function isFirstLetter(letter, string) {
+    find = (helloName(), helloName())
+    for (let i = 0; i < helloName.length; i++) {
+      if (find === helloName(0), helloName()) {
+        return true
+      } else {
+        return false
+      }
+    }
+  }
+  console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
+  console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
+
+
+
+console.log(obj.title)
+// console logs updated collection array list
+
+
+
+
+
+
+
+
+
+
 
 
 
