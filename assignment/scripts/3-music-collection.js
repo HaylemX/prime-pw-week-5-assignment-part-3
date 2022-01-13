@@ -6,8 +6,10 @@ function addToCollection(title,artist,yearPublished) {
 
 }
 
-album = {
-  album.title: 'Good Things Fall Apart',
-  album.artist: 'Illenium',
-  artist.yearPublished: 2020
-}
+const album = {
+  title: 'Good Things Fall Apart',
+  artist: 'Illenium',
+  yearPublished: 2020
+};
+
+console.log(album);
