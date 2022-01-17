@@ -68,10 +68,10 @@ function findByArtist(artist){
   for (let i = 0; i<collection.length; i++){
     if (collection[i].artist === artist){
       artistArray.push(collection.artist[i]);
-      // pushes value into artistArray
+      // pushes value into artist
     }
   }
-console.log(artistArray);
+console.log(artist);
 
 }
 
