@@ -2,8 +2,6 @@ console.log('***** Music Collection *****')
 
 let collection = []
 
-
-
 function addToCollection(title, artist, yearPublished) {
   let obj = {}
 
@@ -36,17 +34,12 @@ function showCollection(array) {
   console.log("test", item);
   })
 */
-
 }
-
-
 
 showCollection(collection);
 
 console.log(collection)
 // console logs my updated collection array
-
-
 
 function showCollection(array) {
   console.log(array.length);
@@ -56,11 +49,6 @@ function showCollection(array) {
     // console logs title,artist and yearPublished together
   }
 }
-
-
-
-
-
 
 function findByArtist(artist){
   let artistArray=[];
@@ -81,16 +69,16 @@ findByArtist('Good Things Fall Apart');
 
 
 
-/*
-function findByArtist() {
 
-  for (let i=0;i<collection.length;i++) {
-  if (collection.artist[i] === for (let i= 0; i < array.length; i++)   {
-    artistList.push(collection.artist[i])
-} {
-  console.log(artistList);
-}
 
+
+
+
+
+
+
+
+//Stretch Attempt
 
 /*
 
